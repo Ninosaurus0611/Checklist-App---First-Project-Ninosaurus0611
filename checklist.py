@@ -15,7 +15,7 @@ start = min(a, b)
 end = max(a, b)
 
 # Step 5: Calculate the sum
-totaal = sum(range(start, end +1))
+totaal = sum(range(start, end + 1))
 
 # Step 6: Display result
 print(f"Het totaal van {start} tot {end} is {totaal}")
