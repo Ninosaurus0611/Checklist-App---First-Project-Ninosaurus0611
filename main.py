@@ -8,7 +8,6 @@ from kivy.uix.label import Label
 
 class BasicApp(App):
     def build(self):
-        label = Label(text="Hello World")
         return Label(text='Hello World')
 
 app = BasicApp()
